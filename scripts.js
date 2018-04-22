@@ -8,8 +8,8 @@ console.log(modifiedText);
 var changeDinosaur = str.replace('Velociraptor', modifiedText);
 console.log(changeDinosaur);
 
-var halfOfDinosaur = changeDinosaur.length / 2;
-console.log(halfOfDinosaur);
+//var halfOfDinosaur = changeDinosaur.length / 2;
+//console.log(halfOfDinosaur);
 
-var halfOfText = changeDinosaur.slice(0, 72);
+var halfOfText = changeDinosaur.slice(0, changeDinosaur.length / 2);
 console.log(halfOfText);
